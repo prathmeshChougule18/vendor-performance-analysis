@@ -620,7 +620,9 @@ elif page == "📈 Statistical Analysis":
         use_container_width=True,
         height=400
 
-        # ─────────────────────────────────────────
+    )
+
+   # ─────────────────────────────────────────
 # FOOTER
 # ─────────────────────────────────────────
 st.markdown("---")
@@ -630,4 +632,3 @@ st.markdown("""
     <p style='font-size: 12px;'>Built with ❤️ using Python & Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
-    )
