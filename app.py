@@ -619,4 +619,15 @@ elif page == "📈 Statistical Analysis":
         filtered_df[available_show].sort_values('GrossProfit', ascending=False).reset_index(drop=True),
         use_container_width=True,
         height=400
+
+        # ─────────────────────────────────────────
+# FOOTER
+# ─────────────────────────────────────────
+st.markdown("---")
+st.markdown("""
+<div style='text-align: center; color: #8b92a5; padding: 20px;'>
+    <p>© 2026 <strong style='color: #e2e8f0;'>Prathmesh Chougule</strong> · All Rights Reserved</p>
+    <p style='font-size: 12px;'>Built with ❤️ using Python & Streamlit</p>
+</div>
+""", unsafe_allow_html=True)
     )
